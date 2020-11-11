@@ -1,0 +1,4 @@
+Bundle-Name: ProcessComment
+Bundle-SymbolicName: AMA.OpenGov.ProcessComment
+Bundle-Version: 1.0.0
+Export-Package: AMA.OpenGov.constants

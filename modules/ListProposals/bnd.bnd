@@ -1,0 +1,4 @@
+Bundle-Name: ListProposalsV2
+Bundle-SymbolicName: ama.openGov.ListProposalsV2
+Bundle-Version: 1.0.0
+Export-Package: ama.openGov.constants

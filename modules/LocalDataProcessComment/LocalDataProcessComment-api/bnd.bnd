@@ -1,0 +1,9 @@
+Bundle-Name: LocalDataProcessComment-api
+Bundle-SymbolicName: AMA.OpenGov.api
+Bundle-Version: 1.0.0
+Export-Package:\
+	AMA.OpenGov.exception,\
+	AMA.OpenGov.model,\
+	AMA.OpenGov.service,\
+	AMA.OpenGov.service.persistence
+-includeresource: META-INF/service.xml=../LocalDataProcessComment-service/service.xml

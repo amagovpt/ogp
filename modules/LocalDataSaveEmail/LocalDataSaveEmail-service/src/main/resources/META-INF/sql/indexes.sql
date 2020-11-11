@@ -1,0 +1,1 @@
+create index IX_7BE54E38 on AMA_ogp_comments (nome[$COLUMN_LENGTH:75$]);

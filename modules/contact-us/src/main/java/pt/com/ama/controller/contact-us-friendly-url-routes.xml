@@ -1,0 +1,29 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE routes PUBLIC "-//Liferay//DTD Friendly URL Routes 6.2.0//EN" "http://www.liferay.com/dtd/liferay-friendly-url-routes_6_2_0.dtd">
+
+<routes>
+
+<!-- For View -->
+<route>
+<pattern>/forView/{placeHolder}</pattern> 
+<generated-parameter name="mvcPath">/jsp/{placeHolder}.jsp</generated-parameter>
+<ignored-parameter name="p_p_id"/>
+<implicit-parameter name="p_p_mode">view</implicit-parameter>
+</route>
+
+<!-- For Delete -->
+ <route>
+<pattern>/forDelete/{placeHolder1}/{placeHolder2}</pattern>
+<generated-parameter name="javax.portlet.action">{placeHolder1}</generated-parameter>
+<generated-parameter name="userId">{placeHolder2}</generated-parameter>
+<implicit-parameter name="p_p_lifecycle">1</implicit-parameter>
+</route> 
+
+<!-- For ADD -->
+<route>
+<pattern>/forAdd/{placeHolder}</pattern> 
+<generated-parameter name="javax.portlet.action">{placeHolder}</generated-parameter>
+<implicit-parameter name="p_p_lifecycle">1</implicit-parameter>
+</route>
+
+</routes>

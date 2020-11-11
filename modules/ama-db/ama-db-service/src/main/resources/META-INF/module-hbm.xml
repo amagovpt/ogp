@@ -1,0 +1,22 @@
+<?xml version="1.0"?>
+<!DOCTYPE hibernate-mapping PUBLIC "-//Hibernate/Hibernate Mapping DTD 3.0//EN" "http://hibernate.sourceforge.net/hibernate-mapping-3.0.dtd">
+
+<hibernate-mapping auto-import="false" default-lazy="false">
+	<import class="pt.ama.service.db.entities.model.UserPersonalData" />
+	<class name="pt.ama.service.db.entities.model.impl.UserPersonalDataImpl" table="ogp_UserPersonalData">
+		<id name="userId" type="long">
+			<generator class="assigned" />
+		</id>
+		<property name="companyId" type="com.liferay.portal.dao.orm.hibernate.LongType" />
+		<property name="identificationId" type="com.liferay.portal.dao.orm.hibernate.StringType" />
+		<property name="lawerId" type="com.liferay.portal.dao.orm.hibernate.StringType" />
+		<property name="solicitorId" type="com.liferay.portal.dao.orm.hibernate.StringType" />
+		<property name="notaryId" type="com.liferay.portal.dao.orm.hibernate.StringType" />
+		<property name="passportId" type="com.liferay.portal.dao.orm.hibernate.StringType" />
+		<property name="nationality" type="com.liferay.portal.dao.orm.hibernate.StringType" />
+		<property name="authenticationType" type="com.liferay.portal.dao.orm.hibernate.StringType" />
+		<property name="agreeFullName" type="com.liferay.portal.dao.orm.hibernate.StringType" />
+		<property name="agreePortalUseData" type="com.liferay.portal.dao.orm.hibernate.StringType" />
+		<property name="agreeEmail" type="com.liferay.portal.dao.orm.hibernate.StringType" />
+	</class>
+</hibernate-mapping>

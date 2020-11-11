@@ -1,0 +1,9 @@
+Bundle-Name: LocalDataSaveEmail-api
+Bundle-SymbolicName: AMA.OpenGov.LocalDataSaveEmail.api
+Bundle-Version: 1.0.0
+Export-Package:\
+	AMA.OpenGov.LocalDataSaveEmail.exception,\
+	AMA.OpenGov.LocalDataSaveEmail.model,\
+	AMA.OpenGov.LocalDataSaveEmail.service,\
+	AMA.OpenGov.LocalDataSaveEmail.service.persistence
+-includeresource: META-INF/service.xml=../LocalDataSaveEmail-service/service.xml

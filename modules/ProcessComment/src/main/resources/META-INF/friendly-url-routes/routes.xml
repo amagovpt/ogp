@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE routes PUBLIC "-//Liferay//DTD Friendly URL Routes 7.0.0//EN"
+"http://www.liferay.com/dtd/liferay-friendly-url-routes_7_0_0.dtd">
+<routes>
+    <route>
+        <pattern></pattern>
+        <implicit-parameter name="mvcRenderCommandName">addComment</implicit-parameter>
+        <implicit-parameter name="p_p_id">AMA_OpenGov_portlet_ProcessCommentPortlet</implicit-parameter>
+        <implicit-parameter name="p_p_lifecycle">1</implicit-parameter>
+        <!-- <implicit-parameter name="p_p_state">normal</implicit-parameter>
+        <implicit-parameter name="p_p_mode">view</implicit-parameter>
+        <implicit-parameter name="p_p_col_id">column-1</implicit-parameter>
+        <implicit-parameter name="p_p_col_count">1</implicit-parameter> -->
+   </route>
+</routes>

@@ -1,0 +1,9 @@
+Bundle-Name: ama-db-api
+Bundle-SymbolicName: pt.ama.service.db.entities.api
+Bundle-Version: 1.0.0
+Export-Package:\
+	pt.ama.service.db.entities.exception,\
+	pt.ama.service.db.entities.model,\
+	pt.ama.service.db.entities.service,\
+	pt.ama.service.db.entities.service.persistence
+-includeresource: META-INF/service.xml=../ama-db-service/service.xml

@@ -1,0 +1,47 @@
+/* Imports */
+
+@import "aui/lexicon/lexicon-base/mixins";
+
+/* Variable definitions */
+
+$white: #FFF;
+$black: #000;
+$blue-title: #1791e1;
+$blue-button: #09f;
+$dark-blue: #2472b9;
+
+$yellow: #FFBF03;
+
+$green: #4da22b;
+$green: #4da22b;
+$orange: #f9822a;
+
+$primary-color: #2980b9;
+$secondary-bg-color: #f4f4f6;
+
+$solid-bkg: #333333;
+
+$mobile: "(max-width: 767px)";
+$tablet: "(min-width: 768px) and (max-width: 1023px)";
+$desktop: "(min-width: 1024px)";
+
+
+/* Portlet decorators */
+
+.portlet-decorate .portlet-content {
+	background: #FFF;
+	border: 1px solid #DEEEEE;
+}
+
+.portlet-barebone .portlet-content {
+	padding: 0;
+}
+
+/* @include transition(all,2s,ease-out); */
+@mixin transition($what: all, $time: 0.2s, $how: ease-in-out) {
+    -webkit-transition: $what $time $how;
+    -moz-transition:    $what $time $how;
+    -ms-transition:     $what $time $how;
+    -o-transition:      $what $time $how;
+    transition:         $what $time $how;
+}

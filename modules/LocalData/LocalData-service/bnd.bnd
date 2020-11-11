@@ -1,0 +1,5 @@
+Bundle-Name: LocalData-service
+Bundle-SymbolicName: AMA.OpenGov.service
+Bundle-Version: 1.0.0
+Liferay-Require-SchemaVersion: 1.0.0
+Liferay-Service: true

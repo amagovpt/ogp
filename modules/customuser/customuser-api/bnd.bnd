@@ -1,0 +1,9 @@
+Bundle-Name: customuser-api
+Bundle-SymbolicName: pt.ama.services.customuser.api
+Bundle-Version: 1.0.0
+Export-Package: \
+	pt.ama.services.customuser.api,\
+	pt.ama.services.customuser.model,\
+	pt.ama.services.customuser.enums,\
+	pt.ama.services.customuser.exceptions,\
+	pt.ama.services.customuser.api.configuration

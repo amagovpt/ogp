@@ -1,0 +1,20 @@
+<?xml version="1.0"?>
+
+<model-hints>
+	<model name="bd.ama.model.emailContact">
+		<field name="uuid" type="String" />
+		<field name="id" type="long" />
+		<field name="nome" type="String" />
+		<field name="email" type="String" />
+		<field name="mensagem" type="String" />
+		<field name="status" type="boolean" />
+	</model>
+	<model name="ama.opengov.model.emailContact">
+		<field name="uuid" type="String" />
+		<field name="id" type="long" />
+		<field name="nome" type="String" />
+		<field name="email" type="String" />
+		<field name="mensagem" type="String" />
+		<field name="status" type="boolean" />
+	</model>
+</model-hints>

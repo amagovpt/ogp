@@ -1,0 +1,10 @@
+<?xml version="1.0"?>
+
+<beans xmlns="http://www.springframework.org/schema/beans" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" default-destroy-method="destroy" default-init-method="afterPropertiesSet" xsi:schemaLocation=" http://www.springframework.org/schema/beans http://www.springframework.org/schema/beans/spring-beans.xsd">
+	<bean class="bd.ama.service.impl.emailContactLocalServiceImpl" id="bd.ama.service.emailContactLocalService" />
+	<bean class="bd.ama.service.impl.emailContactServiceImpl" id="bd.ama.service.emailContactService" />
+	<bean class="bd.ama.service.persistence.impl.emailContactPersistenceImpl" id="bd.ama.service.persistence.emailContactPersistence" parent="basePersistence" />
+	<bean class="ama.opengov.service.impl.emailContactLocalServiceImpl" id="ama.opengov.service.emailContactLocalService" />
+	<bean class="ama.opengov.service.impl.emailContactServiceImpl" id="ama.opengov.service.emailContactService" />
+	<bean class="ama.opengov.service.persistence.impl.emailContactPersistenceImpl" id="ama.opengov.service.persistence.emailContactPersistence" parent="basePersistence" />
+</beans>

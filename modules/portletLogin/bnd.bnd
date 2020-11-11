@@ -1,0 +1,8 @@
+Bundle-Name: portletLogin
+Bundle-SymbolicName: AMA.OpenGov.PortletLogin
+Bundle-Version: 1.0.0
+Export-Package: AMA.OpenGov.PortletLogin.constants
+Import-Package: *;resolution:=optional  
+
+ 
+		

@@ -1,0 +1,4 @@
+Bundle-Name: insertContent
+Bundle-SymbolicName: AMA.OpenGov.InsertContent
+Bundle-Version: 1.0.0
+Export-Package: AMA.OpenGov.InsertContent.constants

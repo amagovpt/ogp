@@ -1,0 +1,9 @@
+Bundle-Name: ContactSb-api
+Bundle-SymbolicName: bd.ama.api
+Bundle-Version: 1.0.0
+Export-Package:\
+	bd.ama.exception,\
+	bd.ama.model,\
+	bd.ama.service,\
+	bd.ama.service.persistence
+-includeresource: META-INF/service.xml=../ContactSb-service/service.xml

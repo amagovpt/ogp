@@ -1,0 +1,5 @@
+1� >Criar uma pagina no menu, sem navega��o
+2� > Criar asset webcontent, marcar a seguinte op��o:"Display Settings" - "Set as the Default Asset Publisher for This Page"
+3� >Atribui o webcontent a estrutura da pagina na op��o :"Display Page choose" e selecionar a pagina sem menu (etapa 1)
+														 "Asset Link Behavior" -> Show Full Content
+		

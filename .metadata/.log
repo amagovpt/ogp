@@ -1,0 +1,12 @@
+!SESSION 2018-07-31 20:16:49.357 -----------------------------------------------
+eclipse.buildId=4.6.3.M20170301-0400
+java.version=1.8.0_171
+java.vendor=Oracle Corporation
+BootLoader constants: OS=win32, ARCH=x86_64, WS=win32, NL=en_US
+Framework arguments:  -product org.eclipse.epp.package.jee.product
+Command-line arguments:  -os win32 -ws win32 -arch x86_64 -product org.eclipse.epp.package.jee.product
+
+!ENTRY org.eclipse.ui 2 0 2018-07-31 20:17:18.706
+!MESSAGE Warnings while parsing the images from the 'org.eclipse.ui.commandImages' extension point.
+!SUBENTRY 1 org.eclipse.ui 2 0 2018-07-31 20:17:18.706
+!MESSAGE Cannot bind to an undefined command: plug-in='com.liferay.ide.project.ui', id='com.liferay.ide.project.ui.upgrade.openLiferay7UpgradeAssistant'

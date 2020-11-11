@@ -1,0 +1,55 @@
+<?xml version="1.0"?>
+<!DOCTYPE service-builder PUBLIC "-//Liferay//DTD Service Builder 7.0.0//EN" "http://www.liferay.com/dtd/liferay-service-builder_7_0_0.dtd">
+
+<service-builder package-path="pt.ama.service.db.entities">
+	<namespace>ogp</namespace>
+
+<entity name="UserPersonalData" local-service="true"
+		remote-service="true">
+		<!-- PK fields -->
+		<column name="userId" type="long" primary="true" />
+		<column name="companyId" type="long" />
+		<column name="identificationId" type="String" />
+		<column name="lawerId" type="String" />
+		<column name="solicitorId" type="String" />
+		<column name="notaryId" type="String" />
+		<column name="passportId" type="String" />
+		<column name="nationality" type="String" />
+		<column name="authenticationType" type="String" />
+		<column name="agreeFullName" type="String" />
+		<column name="agreePortalUseData" type="String" />
+		<column name="agreeEmail" type="String" />
+
+		<!-- Order -->
+		<order>
+			<order-column name="companyId" order-by="asc" />
+			<order-column name="userId" order-by="desc" />
+		</order>
+
+		<finder name="identificationId" return-type="UserPersonalData">
+			<finder-column name="identificationId" />
+		</finder>
+
+		<finder name="lawerId" return-type="UserPersonalData">
+			<finder-column name="lawerId" />
+		</finder>
+
+		<finder name="solicitorId" return-type="UserPersonalData">
+			<finder-column name="solicitorId" />
+		</finder>
+
+		<finder name="notaryId" return-type="UserPersonalData">
+			<finder-column name="notaryId" />
+		</finder>
+
+		<finder name="passport" return-type="UserPersonalData">
+			<finder-column name="passportId" />
+			<finder-column name="nationality" />
+		</finder>
+
+		<finder name="userId" return-type="UserPersonalData">
+			<finder-column name="userId" />
+		</finder>
+	</entity>
+
+</service-builder>

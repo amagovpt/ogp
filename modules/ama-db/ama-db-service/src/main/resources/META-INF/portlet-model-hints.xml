@@ -1,0 +1,18 @@
+<?xml version="1.0"?>
+
+<model-hints>
+	<model name="pt.ama.service.db.entities.model.UserPersonalData">
+		<field name="userId" type="long" />
+		<field name="companyId" type="long" />
+		<field name="identificationId" type="String" />
+		<field name="lawerId" type="String" />
+		<field name="solicitorId" type="String" />
+		<field name="notaryId" type="String" />
+		<field name="passportId" type="String" />
+		<field name="nationality" type="String" />
+		<field name="authenticationType" type="String" />
+		<field name="agreeFullName" type="String" />
+		<field name="agreePortalUseData" type="String" />
+		<field name="agreeEmail" type="String" />
+	</model>
+</model-hints>

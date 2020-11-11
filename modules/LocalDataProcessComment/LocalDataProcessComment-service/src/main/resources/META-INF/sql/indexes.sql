@@ -1,0 +1,1 @@
+create index IX_59DD71CE on ogp_comments (nome[$COLUMN_LENGTH:75$]);

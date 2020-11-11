@@ -1,0 +1,4 @@
+Bundle-Name: BtnCallLogin
+Bundle-SymbolicName: AMA.OpenGov.btncallLogin
+Bundle-Version: 1.0.0
+Export-Package: AMA.OpenGov.btncallLogin.constants

@@ -1,0 +1,11 @@
+<?xml version="1.0"?>
+
+<model-hints>
+	<model name="AMA.OpenGov.model.comments">
+		<field name="id" type="long" />
+		<field name="nome" type="String" />
+		<field name="email" type="String" />
+		<field name="mensagem" type="String" />
+		<field name="status" type="boolean" />
+	</model>
+</model-hints>

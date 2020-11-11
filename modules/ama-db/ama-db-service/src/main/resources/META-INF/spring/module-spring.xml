@@ -1,0 +1,7 @@
+<?xml version="1.0"?>
+
+<beans xmlns="http://www.springframework.org/schema/beans" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" default-destroy-method="destroy" default-init-method="afterPropertiesSet" xsi:schemaLocation=" http://www.springframework.org/schema/beans http://www.springframework.org/schema/beans/spring-beans.xsd">
+	<bean class="pt.ama.service.db.entities.service.impl.UserPersonalDataLocalServiceImpl" id="pt.ama.service.db.entities.service.UserPersonalDataLocalService" />
+	<bean class="pt.ama.service.db.entities.service.impl.UserPersonalDataServiceImpl" id="pt.ama.service.db.entities.service.UserPersonalDataService" />
+	<bean class="pt.ama.service.db.entities.service.persistence.impl.UserPersonalDataPersistenceImpl" id="pt.ama.service.db.entities.service.persistence.UserPersonalDataPersistence" parent="basePersistence" />
+</beans>

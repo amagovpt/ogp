@@ -1,0 +1,361 @@
+.list-proposals-subtitle {
+	margin-bottom: 25px;
+	margin-top: 25px;
+	font-size: 20px;
+	font-weight: bold;
+	display: inline;
+}
+
+.list-proposals-search-form {
+	
+	label {
+		font-size: 12px;
+	    line-height: 0;
+	    color: #a7a4a4;
+	}
+	
+	div.form-group.form-group-inline.input-select-wrapper {
+		margin-right: 15px;
+	}
+	
+	select {
+		border: none;
+	    background-color: transparent;
+	    border-radius: unset;
+	    box-shadow: none;
+	    border-bottom: 1px solid #ddd;
+	    padding-right: 20px;
+	    padding-left: 20px;
+	}
+	
+	select.form-control:focus {
+	    box-shadow: none;
+	    border-bottom: 3px solid #66afe9;
+	}
+	
+	select.form-control option, select.form-control option:hover {
+		color: #66afe9;
+		background-color: transparent;
+	}
+	
+	 /* #66afe9;*/
+	select.form-control option:not(:checked) { 
+		background-color: transparent;
+		color: #000;
+	}
+	
+	/*select.form-control option:checked { 
+		display:none; 
+	}*/
+	
+	input.form-control {
+		border: none;
+    	border-bottom: 1px solid #ddd;
+    	border-radius: unset;
+	}
+	
+	button.btn.btn-primary.btn-default {
+		margin-left: 10px;
+		border-radius: unset;
+		background-color: #b3b3b3;
+		border-color: #adb2b7;
+		-webkit-transition: background-color 0.25s ease;
+	    -moz-transition: background-color 0.25s ease;
+	    -o-transition: background-color 0.25s ease;
+	    transition: background-color 0.25s ease;
+			
+		&:hover {
+			background-color: #808080;
+		}
+	}
+	
+}
+
+button.suggestion {
+	/*position: absolute;
+    right: 20px;
+    margin-top: 21px;*/
+}
+
+.search-text-pos {
+	display: inline-block;
+}
+
+.measure-table-head {
+	
+	margin-top: 40px;	
+	
+	span {
+		padding: 0px 0px 0 10px;
+		display: inline-block;
+		font-weight: 600;
+    	color: #868686;	
+	}
+	
+	span:first-child {
+		padding-left: 20px;
+		width: 100px;
+	}
+	
+	span:nth-child(2) {
+		width: 60%;
+	}
+	
+	span:nth-child(3) {
+		width: 20%;
+	}
+	
+	span:nth-child(4) {
+		float: right;
+		padding-right: 10px;
+		display: inline-block;
+	}
+		
+}
+
+
+@media only screen and (max-width: 1362px) {
+	.measure-table-head {
+	
+		span:nth-child(3) {
+			width: 18%;
+		}
+		
+		span:nth-child(4) {
+			padding-right: 0px;
+		}
+		
+	}
+}
+
+@media only screen and (max-width: 1146px) {
+	.measure-table-head {
+	
+		span:nth-child(2) {
+			width: 54%;
+		}
+		
+	}
+}
+
+@media only screen and (max-width: 992px) {
+	.measure-table-head {
+	
+		span:nth-child(2) {
+			width: 52%;
+		}
+		
+	}
+}
+
+@media only screen and (max-width: 876px) {
+	.measure-table-head {
+	
+		span:nth-child(3) {
+			width: 15%;
+		}
+		
+	}
+}
+
+@media only screen and (max-width: 660px) {
+	.measure-table-head {
+		opacity: 0;
+    	margin-top: 0px;
+	}
+}
+
+.proposals-list-table {
+	
+	.lfr-search-container {
+		margin-top: 8px;
+	}
+	
+	/* Table */
+	.table-bordered {
+		border: none;
+	}
+	
+	thead {
+		display: none;
+	}	
+	
+	tbody > tr {
+		display: block;
+		background-color: #fff !important;
+		border: 1px solid #ddd;
+		display: flex;
+		margin-bottom: 4px;
+    	height: 65px;
+		
+		td {
+			border: none;
+			font-family: 'Muli', sans-serif;		
+		}
+		
+		td:first-child {
+			display: none;
+		}
+		
+		td:nth-child(2) {
+		    width: 100px;
+		    padding-right: 12px;
+		    padding-left: 12px;
+		    display: inline-block;
+		    position: relative;
+		    
+		    span {
+		    	color: #fff;
+		    	font-size: 15px;
+			    background-color: #c15151;
+			    padding: 3px 10px;
+			    font-style: italic;
+    			position: absolute;
+    			top: 50%;
+    			transform: translateY(-50%);	
+			}		    
+		}
+		
+		td:nth-child(3) {
+		    padding-left: 10px;
+		    width: 60%;
+		   	position: relative;
+		    
+		    a {
+		    	vertical-align: -webkit-baseline-middle;
+		    	font-weight: 700;
+		    	font-size: 18px;
+		    	text-decoration: none;
+		    	color: rgb(51, 51, 51);
+		    	position: absolute;
+    			top: 50%;
+    			transform: translateY(-50%);	
+		    }	
+		}
+		
+		td:nth-child(4) {
+		    padding-right: 1em;
+		    padding-left: 1em;
+		    width: 20%;
+		    position: relative;
+		    
+		    span {
+		    	background-color: #e2e2e252;
+			    width: auto;
+			    font-size: 14px;
+			    font-style: italic;
+			    padding: 3px 10px;
+    			font-weight: 600;    			
+    			position: absolute;
+    			top: 50%;
+    			transform: translateY(-50%);
+    			text-transform: capitalize;
+			}		    
+		}
+		
+		td:last-child {
+			display: inline-block;
+			width: 12%;
+		
+			a {			
+			    cursor: pointer;
+			    background-image: url("../images/comment.svg");
+			    background-size: 32px 32px;
+			    float: right;
+			    height: 32px;
+			    text-align: right;
+			    background-repeat: no-repeat;
+			    width: 32px;
+			    margin-top: 8px;
+			}
+		}
+		
+	}
+	
+	.lfr-pagination-config {
+		display: none;
+	}
+	
+}
+
+.propose-measure-btn-pos {
+	position: absolute;
+    right: 0;
+    max-width: 400px;
+    margin-top: 20px;
+    
+    h4 {
+   		text-align: right;
+   		display: inline-block;   		
+    }
+    
+    button {
+    	float:right;
+    	font-size: 1.4em;
+    }
+    
+    & + form {
+   		margin-top: 130px;
+    }
+}
+
+@media only screen and (max-width: 660px) {
+	
+	.proposals-list-table {
+	
+		tbody > tr {
+			height: 90px;
+			
+			td:nth-child(2) {
+			    position: absolute;
+			    margin-top: 6px;
+			    left: 3px
+		    }
+		    
+		    td:nth-child(3) {
+		    	margin-top: 16px;
+		    }
+		    
+		    td:nth-child(4) {
+		        width: 40%;
+    			text-align: right;
+    			white-space: nowrap;
+    			display: inline-table;
+    			
+    			span {
+    				position: relative;
+    				top: 0;
+    			}
+		    }
+	
+			td:last-child {
+			    position: absolute;
+		    	left: unset;
+    			right: 20px;
+		    	margin-top: 22px;
+		    }
+		}
+	}
+}
+
+/* Search container navigation controls */
+div.open.lfr-icon-menu-open {
+	
+	ul.dropdown-menu.lfr-menu-list.direction-down {
+		position: relative;
+		left: 116px;
+	}
+	
+}
+
+.yui3-widget-bd:focus {
+	outline: none;
+}
+
+.capitalize-first {
+    text-transform: capitalize;
+}
+
+.total-width {
+	width: 100%;
+}

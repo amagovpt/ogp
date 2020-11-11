@@ -1,0 +1,8 @@
+Bundle-Name: Common
+Bundle-SymbolicName: Ama.OpenGov.common
+Bundle-Version: 1.0.0
+Export-Package: \
+	Ama.OpenGov.common.model,\
+	Ama.OpenGov.common.constants,\
+	Ama.OpenGov.common.session.api,\
+	Ama.OpenGov.common.session.service

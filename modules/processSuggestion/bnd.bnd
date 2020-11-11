@@ -1,0 +1,4 @@
+Bundle-Name: processSuggestion
+Bundle-SymbolicName: AMA.OpenGov.ProcessSuggestion
+Bundle-Version: 1.0.0
+Export-Package: ama.openGov.constants

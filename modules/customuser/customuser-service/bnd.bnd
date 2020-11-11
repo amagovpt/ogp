@@ -1,0 +1,3 @@
+Bundle-Name: customuser-service
+Bundle-SymbolicName: pt.ama.service.customuser.service
+Bundle-Version: 1.0.0
